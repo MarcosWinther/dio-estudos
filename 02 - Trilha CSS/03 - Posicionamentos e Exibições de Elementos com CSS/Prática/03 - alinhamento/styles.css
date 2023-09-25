@@ -1,0 +1,18 @@
+.container {
+   border: 1px solid red;
+   text-align: center;
+}
+
+.exemplo {
+   background-color: palevioletred;
+}
+
+#item-01 {
+   height: 50px;
+   vertical-align: middle;
+}
+
+#item-02 {
+   text-align: center;
+   vertical-align: top;
+}

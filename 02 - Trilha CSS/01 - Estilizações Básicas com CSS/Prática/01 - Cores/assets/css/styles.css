@@ -1,0 +1,32 @@
+#pre-definidas {
+   color: chocolate;
+}
+
+#current-color {
+   color: deeppink;
+   border: 2px solid currentColor;
+}
+
+#rgb {
+   color: rgb(255, 0, 255);
+}
+
+#rgba {
+   color: rgba(200, 0, 255, .5);
+}
+
+#hex {
+   color: #abcdef;
+}
+
+#hex-transparencia {
+   color: #0000FFBB;
+}
+
+#hsl {
+   background-color: hsl(300, 50%, 40%);
+}
+
+#hsla {
+   background-color: hsla(270, 50%, 30%, .4);
+}

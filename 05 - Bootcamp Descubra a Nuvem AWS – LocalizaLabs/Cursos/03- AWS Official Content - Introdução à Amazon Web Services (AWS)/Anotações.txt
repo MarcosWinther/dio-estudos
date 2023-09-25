@@ -1,0 +1,17 @@
+-> AWS Compute Services Overview
+- A AWS é um amplo catálogo de serviços de computação.
+- Inclui serviços de servidores virtuais flexíveis e até computação sem servidor.
+- AWS oferece: flexibidadee economia
+- Amazon EC2: oferece uma ampla variedade de tipo de instância de servidor virtual apropriados para tudo, de servidores Web simples a grande clusters de machine learning.
+- Amazon EC2 permite total flexibilidade para executar qualquer aplicações em qualquer escala.
+- AWS Lambda permite executar código sem provisionar ou gerenciar servidores. Você só paga pelo tempo de computação consumido. Não haverá cobranças quando seu código não estiver em execução. Com o Lambda, você pode executar código para praticamente qualquer tipo de aplicação ou serviço de back-end, tudo sem precisar de administração.
+- Amazon Lightsail você pode iniciar um servidor privado virtual em alguns minutos e gerenciar facilmente servidores Web e aplicações simples. Amazon Ligthsail inclui máquina virtual, armazenament, transferência de dados, gerenciamento de DNS e um endereço IP estático por um preço baixo previsível.
+- Amazon EC2 Container Service (ECS) é um serviço de gerenciamento de contêineres de alta escabilidade e performance que aceita contêineres de docker e permite executar facilmente aplicações em um cluster gerenciado de instâncias do Amazon EC2.
+
+--------------------------------------------
+
+-> AWS Global Infraestructure
+- Zonas de disponibilidade (AZs): refere-se as quais serviços são limitados por fronteiras e como as AZs podem ajudar você a criar um ambiente altamente disponível.
+- Região AWS: locais físicos ao redor do mundo onde a AWS mantém clusters de data centers.
+- Locais de borda da AWS: endpoints que veiculam conteúdo armazenado em cache e dão acesso a serviços da AWS.
+- Zonas de disponibilidade, regiões e locais de bordas são componentes cruciais para entender e usar a AWS.

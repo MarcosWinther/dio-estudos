@@ -1,0 +1,19 @@
+.container {
+   border: 2px solid #000;
+   display: grid;
+   grid-template-columns: [primeira-linha-col] 1fr [segunda-linha-col] 1fr [terceira-linha-col] 1fr [quarta-linha-col];
+   grid-template-rows: [linha-inicio] 100px [linha-meio] 100px [linha-fim];
+}
+
+.item {
+   text-align: center;
+   background-color: deeppink;
+}
+
+.selected {
+   background-color: aqua;
+
+   /* grid-area: <row-start> / <column-start> / <row-end> / <column-end> */
+
+   grid-area: linha-meio / segunda-linha-col / linha-fim / terceira-linha-col;
+}

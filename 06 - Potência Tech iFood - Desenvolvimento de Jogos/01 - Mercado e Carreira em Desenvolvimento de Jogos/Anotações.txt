@@ -1,0 +1,20 @@
+Possíveis Carreiras no Mercado de Jogos
+- Programação (Gameplay, AI, Network, Ferramentas, GFX/Shaders)
+- Arte Gráfica (Arte 2D, Arte 3D, Animação, Arte conceitual, UI/UX, Tech Art)
+- Game Design (Prototipagem, arquitetura dos sistemas, idealização do jogo, balanceamento, UX, Level Design), ou seja, como se fosse o "maestro" ou "arquiteto" do jogo, idealizando tudo sobre o jogo.
+- Audio Design (Efeitos sonoros, trilhas sonoras, programação de aúdio)
+- Narrativa
+- Tester (QA)
+- Produção
+- Marketing
+
+Pesquisa de Cargos
+- Lista de estúdios associados à Abragames
+- Canal "The Gamer Inside Brasil"
+
+Portfólio
+- Github para programadores;
+- ArtStation para artitas;
+- Itch.io para jogos finalizados;
+- Sites próprios para portfólios profissionais;
+- Notion para portfólios flexíveis.

@@ -1,0 +1,69 @@
+- Cloud computing (Computação em nuvem) é um termo amplamente utilizado para definir a entrega sob demanda de recursos de TI e aplicações com a definição de preço.
+- Acessar e usar sua infraestrutura como software tem uma série de benefícios.
+
+Benefícios da Cloud Computing: 
+- flexibilidade
+- Trocar despesas de capital por despesas variáveis: em vez de precisar investir fortemente em datacenters e serviços no mundo da nuvem, você só provisiona recursos quando precisa deles e paga apenas por quanto consumir.
+- Beneficie-se de grandes economias de escala: considerando que o uso de centenas de milhares de clientes é agregado na nuvem, os provedores, como a AWS, conseguem obter economias de escalas maiores, o que resulta em preços baixos com pagamento conforme o uso.
+- Pare de adivinhar capacidade dainfraestrutura que precisará: muitas vezes, ao tomar uma decisão sobre a capacidade antes de implantar uma aplicação, você acaba precisando lidar com recursos caros e ociosos ou com capacidade limitada. Com a computação em nuvem, esses problemas são resolvidos. Você pode facilmente ampliar ou reduzir a escala, conforme necessário, com apenas alguns minutos de antecedência.
+- Aumento de velocidade e agilidade: no ambiente de computação em nuvem, novos recursos de TI estão ao alcance em apenas em um clique, isso significa que o tempo necessário para disponibilizar estes recursos aos desenvolvedores cai de semanas para poucos minutos.
+- Pare de gastar dinheiro com execução e manutenção de datacenters: concentre-se em projetos que criem diferenciais para o seu negócio, não para a infraestrutura. A computação em nuvem permite que você se dedique aos seus clientes, ao invés do trabalho pesado de estruturar, empilhar e alimentar esses servidores.
+- Escala mundial em minutos: implante facilmente aplicações em várias regiões em todo mundo com apenas alguns cliques. Com isso, você pode oferecer baixa latência e uma melhor experiência aos seus clientes a um custo mínimo.
+
+Três modelos principais de implantação de computação em nuvem:
+- Nuvem: uma aplicação baseada em nuvem é totalmente implantada na nuvem.
+- Híbrida: é uma maneira de conectar infraestrutura e aplicações entre recursos de nuvem e recursos existentes. Eles não estão hospedados na nuvem. Uma implantação híbrida é uma maneira de conectar infraestrutura e aplicações entre recursos de nuvem e recursos que não estõ localizados na nuvem. Esse modelo permite que uma organização amplie e expande a infraestrutura para a nuvem, enquanto conecta recursos de nuvem a sistemas internos.
+- On-premises(private cloud): a implantação de recursos on-premises usando ferramentas de virtualização e gerenciamento de recursos é chamada de nuvem privada. A implantação on-premises não oferece muitos dos benefícios da computação em nuvem, mas, às vezes, é preferida por sua capacidade de oferecer recursos dedicados. Na maioria dos casos, este modelo de implantação é igual à infraestrutura de TI herdada, mas também pode usar tecnologias de virtualização e gerenciamento de aplicações para aumentar a utilização de recursos.
+
+O que é a AWS?
+- A Amazon Web Services, ou AWS, é uma plataforma segura que oferece um amplo conjunto de produtos globais baseados na nuvem.
+- Como esses produtos são entregues pela Internet, você tem acesso sob demanda a computação, armazenamento, redes, banco de dados e qualquer outro recurso de TI que podem ser necessários para seus projetos.
+- AWS oferece flexibilidade.
+- Seu ambiente da AWS pode ser reconfigurado e atualizado sob demanda, ampliando e reduzindo automaticamente para atender aos padrões de uso.
+- O faturamento dos serviços da AWS torna-se uma despesa operacional em vez de despesa de capital.
+- Os serviços da AWS são projetados para funcionar em conjunto para atender a praticamente qualquer tipo de aplicação ou carga de trabalho.
+
+Infraestrutura Global da AWS
+- A infraestrutura global da AWS é o ambiente de computação em nuvem mais seguro e confiável em qualquer lugar do planeta e do universo.
+- A infraestrutura da Nuvem AWS é criada em torno de regiões.
+- A AWS tem 22 regiões em todo o mundo
+- Região da AWS é basicamente uma localização geográfica com uma ou mais zonas de disponibilidade.
+- As zonas de disponibilidade consistem em um ou mais datacenters para conseguir tolerância a falhas e estabilidade.
+- As regiões estão isoladas uma das outras.
+- Os recursos de uma região não são replicados  automaticamente em outras regiões. Quando você armazena dados em uma região específica, eles não são replicados fora dessa região.
+- É sua responsabilidade, como cliente, replicar dados entre regiões, caso suas necessidades empresariais exijam isso.
+- Há alguns fatores que você deve considerar ao selecionar uma ou mais regiões ideais, onde armazenar os dados  e usar seus serviços da AWS.
+- Uma consideração essencial é a governança de dados e, claro, os requisitos jurídicos.
+- As leis locais podem exigir que determinadas informações sejam mantidas dentro de limites geográficos. Essas leis podem restringir as regiões onde você pode oferecer conteúdo ou serviços. Exemplo: Diretiva de proteção de dados da União Europeia.
+- Ao mesmo tempo, geralmente é desejável executar suas aplicações e armazenar seus dados em uma região que seja o mais próxima possível do usuário e dos sistemas que os acessarão. Isso basicamente ajudará você a reduzir a latência.
+- O Cloud Ping (https://www.cloudping.info/) é um site de pesquisa que basicamente permite testar a latência entre localização e todas as outras regiões da AWS.
+- Nem todos os serviços em estão disponíveis em algumas regiões. 
+- Variação no custo da execução de serviços que pode depender da região escolhida.
+- Casa região da AWS tem vários locais isolados, conhecidos como zonas de disponibilidade.
+- As zonas de disponiblidade têm sua própria infraestrutura de energia e estão fisicamente separadas de outras zonas de disponibilidade por muitos quilômetros.
+- No entanto, todas as zonas de disponibilidade estão a 100 quilômetros de distância entre si.
+- Todas as zonas de disponibilidade são interconectadas com alta largura de banda, baixa latência e fibra dedicada totalmente redundante, o que fornece alta taxa de transferência entre as zonas de disponibilidade.
+- Ao implantar cargas de trabalho em uma região, certifique-se de usar várias zonas de disponibilidade.
+Particionando em várias zonas de disponibilidade, se uma das zonas de disponibilidade ficar offline, você ainda terá servidores nas outras zonas de disponibilidade que atendem sua solicitação.
+
+AWS data centers
+- A base da infraestura da AWS são os datacenters.
+- Os clientes não especificam um datacenter para a implantação de recursos. Em vez disso, uma zona de disponibilidade é o nível mais granular de especificação que um cliente pode fazer.
+- No entanto, nosso datacenter é o local onde os dados reais são armazenados.
+- A Amazon opera datacenters de última geração altamente disponíveis.
+
+Rede
+- Para fornecer conteúdos aos usuários finais com baixa latência a AWS utiliza uma rede global de pontos de presença
+
+Banco de Dados
+- Os serviços de banco de dados da Amazon são fáceis de configurar, gerenciar e manter, em vez de executar um software de banco de dados em uma instância do EC2. Eles permitem que você se concentre em tarefas não administrativas e rotineiras da plataforma de banco de dados. Como alternativa, executar seu próprio software de banco de dados lhe dará mais controle, flexibilidade e opções.
+- Você precisa de controle total sobre o banco de dados, incluindo acesso do sistema e do usuário do sistema ou se precisar de acesso no nível do sistema operacional.
+
+Amazon RDS: banco de dados da Amazon
+- Ele permite que você se concentre nos negócios e nas aplicações e que a AWS cuide das tarefas de gerenciamento.
+
+Segurança
+- Na AWS, a segurança na nuvem é a nossa maior prioridade.
+- A infraestrutura da AWS foi projetada para ser um dos ambientes de computação em nuvem mais flexíveis e seguros atualmente disponíveis.
+- Ela foi projetada para fornecer uma plataforma escalável e altamente confiável que permite que os clientes implantem aplicações e dados com rapidez e segurança.
+- IAM é um serviço web que ajuda a controlar com segurança o acesso de seus usuárioa aos recursos da AWS. Use o IAM para controlar quem pode usar seus recursos da AWS, isso é a autenticação, e quais recursos eles podem usar e como, isso é autorização.

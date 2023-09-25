@@ -1,0 +1,13 @@
+code {
+   background-color: rgb(180, 180, 180);
+}
+
+::selection {
+   background-color: palevioletred;
+   color: white;
+}
+
+.exemplo::selection {
+   background-color: aquamarine;
+   color: blue;
+}

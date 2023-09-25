@@ -1,0 +1,29 @@
+.exemplo {
+   background-color: palevioletred;
+}
+
+.inline-block {
+   display: inline-block;
+   width: 200px;
+   height: 100px;
+   margin: 8px;
+   padding: 30px;
+}
+
+.esconder-o-elemento {
+   display: none;
+}
+
+.menu {
+   background-color: plum;
+}
+
+.menu ul li {
+   display: inline-block;
+   padding: 20px 40px;
+}
+
+.menu ul li a {
+   text-decoration: none;
+   color: black;
+}

@@ -1,0 +1,7 @@
+Perspectiva
+- A perspectiva é a forma na qual nós percebemos um objeto.
+
+Propriedade perspective
+- A propriedade define quão longe um objeto (elemento) está longe do usuário.
+- Um valor mais baixo vai resultar em um efeito 3D mais intenso do que o valor mais alto.
+- Ao definir essa propriedade a um elemento, faz com que os elementos filhos tenham essa impressão de perspectiva, não o elemento por si só.

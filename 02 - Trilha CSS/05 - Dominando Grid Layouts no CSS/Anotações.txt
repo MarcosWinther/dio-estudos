@@ -1,0 +1,39 @@
+DOMINANDO GRID LAYOUT NO CSS
+
+
+-> Entendendo os conceitos do grid
+- Antigamente, era muito comum a construção de layouts usando tabelas, posicionamentos em bloco/linha e float;
+- CSS Grid é um recurso que permite construir layouts baseados em grades bidimensionais, dividindo a página em regiões e definindo onde cada elemento deve ficar.
+
+-> Nomenclaturas do grid
+- Grid container: elemento-pai que terá a propriedade 'display: grid' especificada. Ele irá "envolver" todos os itens do grid.
+- Grid item: elementos que são filhos diretos do grid container.
+- Grid columns: as faixas verticais dos itens do grid são chamados de colunas (grid columns).
+- Grid rows: as faixas horizontais dos itens do grid são chamados de linhas (grid rows).
+- Grid gaps: espaços entre as linhas (grid rows) e coluna (grid columns) do grid.
+- Grid line: divisórias que compôem a estrututa da grade. As linhas entre as colunas são chamadas de column lines (linhas de coluna) e, as que estão entre as faixas horizontais são chamadas de row lines (linhas de linha). Cada linha possui um número para que possamos usar de referência (exceto para grids implícitos).
+- Grid cell: são as células, ou seja, cada "quadrado" da grade, que vai entre uma grid line e outra.
+
+-> Linhas e colunas no grid
+- grid-template-columns: define as colunas (columns) do grid;
+- grid-template-rows: define as linhas (rows) do grid.
+
+--> Unidade de medida fr
+- Criada para o CSS Grid, a unidade de medida fr representa uma fração do espaço disponível no container do grid.
+
+--> Função repeat
+- Permite repetir para todas ou para algumas das faixas, o mesmo valor para seu tamanho de coluna ou linha.
+
+-> Unidade de medida fr
+- Quando define-se as colunas e linhas através das propriedades grid-template-columns e grid-template-rows estamos criando um grid explícito.
+- Mas, se os itens não couberem, o grid colocará um item fora desse grid que definimos, criando o que chamamos de grid implícito.
+
+-> Propridade grid-auto-flow
+- Controla como o algoritmo de reposicionamento automático irá se comportar.
+
+-> Shorthand de outras propriedades
+- Através da propriedade grid-area, nós conseguimos definir os valores das propriedades grid-row-start, grid-row-end, grid-column-start e grid-column-end de uma só vez.
+
+-> Nomeando as áreas
+- É possível nomear as áreas do grid e posicionar os itens dentro das áreas específicas, as referenciando através do nome.
+

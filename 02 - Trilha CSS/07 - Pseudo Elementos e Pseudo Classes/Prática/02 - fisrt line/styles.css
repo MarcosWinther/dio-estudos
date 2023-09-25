@@ -1,0 +1,8 @@
+code {
+   background-color: rgb(180, 180, 180);
+}
+
+p::first-line {
+   color: blue;
+   background-color: lightblue;
+}

@@ -1,0 +1,75 @@
+DESCUBRA A NUVEM
+
+-------------------------------------------
+
+-> Módulo 1: O que é Computação em Nuvem
+
+
+--> Onde podemos aplicar os conceitos de computação em Nuvem
+- Como você tivesse um lugar virtual para guardar seus dados.
+- A computação em nuvem não é somente armazenamento de dados, é também a forma de como os dados são processados e como executo os aplicativos.
+- Servidor remoto: é um lugar que não está no seu computador físico e está em algum lugar em que não sabemos onde, mas vai processar rapidamente os seus dados.
+- Cloud: Nuvem
+- Cloud Computing: computação em nuvem
+
+
+--> Exemplos de empresas que usam Cloud
+- Streaming de músicas: Spotify, Deezer, Youtube Music
+- Streaming de vídeos: HBO Max, Netflix, Paramount Plus, Globoplay, Disney Plus, Prime Vídeo (Amazon).
+- E-commerce: Amazon, Magalu (Magazine Luiza)
+- Delivery: iFood, AiqFome
+- Finanças: Nubank, PicPay, Banco Will, Itaú
+
+
+--> Porque a computação em nuvem é tão relevante
+- Acessar dados em qualquer lugar, desde que você tenha acesso à internet.
+
+
+--> Algumas vantagens da computação em nuvem
+- Escalável: quando a gente tem uma limitação que a gente pode ampliar, significa que posso aumentar ou diminuir o processamento conforme as suas necessidades.
+- Segurança: as empresas de nuvem tem equipes dedicadas para garantir a segurança dos dados armazenados na nuvem. Na Cloud utiliza-se criptografia para proteger os dados de hackers, de acidentes naturais entre outros.
+- Econômica: você paga pelo que você usa.
+
+--------------------------------------------
+
+-> Módulo 2: Os 5 benefícios do Cloud Computing
+
+
+* Relembrando Cloud Computing:
+- É o modelo de computação que permite o acesso a recursos de computação, como: armazenamento, servidores, softwares, aplicativos etc. Tudo isso via internet, sem a necessidade de você ter esses recursos de forma física no seu computador.
+
+--> 1° Benefício: Redução de custo
+- A utilização de Cloud Computing pode ajudar a redução de custo de manutenção que você pode ter de hardware ou softwares, já que as empresas matenedoras da nuvem são responsáveis por manter e atualizar esses recursos. Além disso, você pode pagar apenas para o que você utiliza sem a necessidade de investir em infraestrutura.
+
+--> 2° Benefício: Acesso remoto
+- Acessa de qualquer lugar onde você estiver.
+- Com o Cloud Computing é possível acessar os recursos em qualquer lugar do mundo e em qualquer dispositivo desde que haja uma conexão com a internet.
+
+--> 3° Benefício: Flexibilidade
+- A Cloud Computing permite que todos os recursos de computador seja facilmente escaláveis, significa que você aumentar ou diminuir a capacidade de armazenamento ou processamento de acordo com sua necessidade.
+
+--> 4° Benefício: Eficiência
+- A Cloud Computing pode ajuda a melhorar a eficiência das empresas permitindo que elas se concentrem em suas atividades principais e reduzam a carga administrativa de gerenciamento de infraestrutura de TI. Isso pode levar a melhor alocação de recursos e maior agilidade nos negócios.
+
+--> 5° Backup e recuperação de desastre
+- A Cloud Computing ajuda a proteger seus dados permitindo que você faça um backup dos seus arquivos em sistemas de forma segura e eficiente.
+
+----------------------------------------------
+
+-> Módulo 3: Os modelos de Serviço na Nuvem
+
+--> Infrastructure as a Service (IaaS)
+- Infraestrutura como serviço, basicamente estou alugando uma infraestrutura, alugando um computador para que possa ser utilizado na medida que precise ou demande dele.
+- Nesse caso é um computador da nuvem, sem que tenha outro computador de forma física.
+- Basicamente, vou ter um computador virtual para processar o que eu quiser.
+
+--> Plataform as a Service (PaaS)
+- Plataforma como serviço você pode usar as ferramentas e a infraestrutura do provedor de nuvem para construir e implantar o seu aplicativo sem se preocupar com a infraestrutura básica.
+
+--> Software as a Service (SaaS)
+- Software como serviço basicamente é um modelo muito comum para aplicativos de produtividade pessoal ou empresarial.
+- Basicamente o Software como serviço é tudo que me permite acessar algo que está pronto, que eu não preciso me preocupar com a criação e infraestrutura.
+
+--> Container as a Service (CaaS)
+- Container como serviço
+- Basicamente o container é uma forma de empacotar e executar aplicativos. Muito útil pois você pode ter um ambiente consiste para os aplicativos e mais fácil de implementar e gerenciar esses aplicativos.

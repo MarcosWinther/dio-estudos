@@ -1,0 +1,85 @@
+body {
+   height: 200vh;
+}
+
+.inline {
+   display: inline-block;
+}
+
+.exemplo {
+   width: 100px;
+   height: 100px;
+   margin: 10px;
+   padding: 10px;
+   border: 4px;
+}
+
+#elemento-1 {
+   background-color: orange;
+   position: fixed;
+   bottom: 0;
+   right: 0;
+}
+
+#elemento-2 {
+   background-color: palevioletred;
+   position: relative;
+   top: 10px
+}
+
+#elemento-3 {
+   background-color: palegreen;
+   position: sticky;
+   top: 0;
+}
+
+#elemento-4 {
+   background-color: paleturquoise;
+}
+
+#elemento-5 {
+   background-color: violet;
+   position: relative;
+   left: 30px;
+}
+
+#elemento-6 {
+   background-color: blueviolet;
+}
+
+#elemento-pai {
+   box-sizing: border-box;
+   height: 300px;
+   padding: 10px;
+   border: 1px solid red;
+   position: relative;
+}
+
+#elemento-filho {
+   background-color: palegreen;
+   position: absolute;
+   top: 0;
+   margin: 0;
+}
+
+.container {
+   width: 500px;
+   height: 500px;
+   border: 1px solid black;
+   position: relative;
+}
+
+.container img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.container h3 {
+   font-size: 40px;
+   font-weight: 900;
+   margin: 0;
+   position: absolute;
+   top: 50%;
+   left: 15%;
+}

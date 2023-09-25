@@ -1,0 +1,19 @@
+.container {
+   background-color: blueviolet;
+   padding: 10px;
+   margin-bottom: 20px;
+   height: 200px;
+   display: flex;
+   align-items: flex-start;
+   gap: 10px;
+}
+
+.item {
+   padding: 8px;
+   background-color: yellow;
+   /*flex-grow: 1;*/
+}
+
+.item-02 {
+   flex-grow: 3;
+}

@@ -1,0 +1,19 @@
+code {
+   background-color: gray;
+}
+
+body {
+   font-family: Arial, sans-serif;
+}
+
+input[type="checkbox"]:checked + label {
+   text-decoration: line-through;
+}
+
+article :first-of-type {
+   color: orange;
+}
+
+article :last-of-type {
+   color: blueviolet;
+}

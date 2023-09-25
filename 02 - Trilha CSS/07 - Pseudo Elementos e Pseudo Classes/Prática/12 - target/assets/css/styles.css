@@ -1,0 +1,12 @@
+img {
+   width: 500px;
+}
+
+p:target {
+   background-color: gold;
+}
+
+p:target::before {
+   content: "🐕";
+   margin-right: 10px;
+}

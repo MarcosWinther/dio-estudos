@@ -1,0 +1,51 @@
+RESPONSIVIDADE NO CSS
+
+-> Técnicas para responsividade (Ethan Marcotte):
+1- Ideias de grids fluídos;
+2- Técnica de imagens fluídas;
+3- Media Queries.
+
+-> Layouts flexíveis
+- Uma das maneiras de se construir layouts flexíveis é usando o Grid Layout, Flexbox e Múltiplas Counas, combinado com unidades de medidas relativas, incluindo as relacionadas à viewport.
+
+-> Multicolunas (multicol)
+- Especifica-se em quantas colunas o conteúdo será divido e o navegador irá calcular o tamanho delas conforme o tamanho da tela mudar.
+
+-> Flexbox
+- Através do flexbox, os elementos da página serão capazes de encolher ou crescer, distribuindo o espaço entre os itens de acordo com o tamanho do container.
+
+-> Grid flexíveis
+- Outro método extremamente eficaz de se criar layouts responsivos é utilizando o Grid Layout com a unidade de medida fr, atribuindo o espaço disponível do container entre as colunas e linhas do grid.
+
+-> Meta tag viewport
+- A meta tag viewport irá informar para os navegadores que eles devem utilizar a largura da janela do dispositivo para exibir a página web, fazendo com que os navegadores as redimensionem melhor, ajudando na responsividade.
+- width=device-width: sobrescreve a configuração padrão dos navegadores para a largura da janela.
+- initial-scale: define zoom inicial da página.
+- heigth: define altura específica para a viewport
+- minimum-scale: define o nível mínimo de zoom.
+- maximum-scale: define o nível máximo de zoom.
+- user-scalable: impede que o usuário aplique zoom na página caso tenha o valor definido como 'no'.
+- Atenção: deve-se evitar o uso do minimum-scale, maximum-scale e user-scalable=no.
+
+-> Media queries
+- Recurso que permite aplicar propriedades do CSS somente para algumas regras de tipos de mídia específicos.
+
+-> @media (at-rule)
+- Regra usada para identificar o tipo de mídia que uma página está sendo visualizada, informando os recursos que esse tipo de mídia suporta e os operadores que podem ser combinados para misturar algumas condições.
+
+-> media type / tipo de mídia
+- Define o tipo de mídia que os estilos CSS devem ser aplicados.
+- all: corresponde a todos os dispositivos;
+- print: corresponde a documentos que são uma pré-visualização de impressão, ou em qualquer mídia que será voltada para imprimir;
+- scrren: corresponde a dispositivos com telas integradas;
+- speech: corresponde a dispositivos que leem o conteúdo de forma audível, como leitor de tela, por exemplo.
+
+-> media features / mídia recursos
+- Configura com quais recursos de mídia se quer combinar para aplicar determinados estilos.
+- min-width/min-height/max-width/max-height/width/height: detecta a largura e altura da viewport;
+- orientation: detecta se o dispositivo está em modo retrato ou paisagem;
+- hover: indica que a página está sendo acessada através de um mecanismo de ponteiro, como um mouse;
+- pointer: detecta quão precioso é ponteiro (grosso, fino etc), ajuda detectar touchscreen, mouse, etc.
+
+-> Breakpoints
+- Os breakpoints são os pontos de interrupção que colocamos nas media queries para tratar a quebra de layout ou ajustar algum conteúdo para determinado dispositivo para deixar as páginas responsivas.

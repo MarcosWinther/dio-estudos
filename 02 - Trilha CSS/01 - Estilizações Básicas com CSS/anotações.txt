@@ -1,0 +1,10 @@
+Cores
+-> Existem várias formas de definirmos cores utilizando o CSS. Elas são:
+- Cores pré-definidas
+- Palavra-chave "currentcolor"
+- Hexadecimal
+- Hexadecimal com transparência
+- RGB
+- RGBA
+- HSL
+- HSLA

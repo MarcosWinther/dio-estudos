@@ -1,0 +1,11 @@
+.container {
+   border: 1px solid #000;
+   padding: 10px;
+   margin-bottom: 20px;
+
+   display: inline-grid;
+}
+
+.item {
+   background-color: palegreen;
+}

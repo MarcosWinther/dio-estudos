@@ -1,0 +1,130 @@
+Conhecendo os Serviços da AWS
+--------------------------------------------
+
+-> Módulo 1: Introdução à Nuvem AWS
+
+--> O que é a AWS?
+- AWS: Amazon Web Services
+- Empresa criada pela Amazon em 2006.
+- Ajuda outras empresas a guardar e processar informações dos seus negócios sem precisar de ter um computador potente em casa ou na empresa.
+- AWS oferece uma plataforma segura para guardar e processar seus dados e aplicativos.
+
+--> Conhecendo o Amazon S3
+- Servidor de armazenamento de arquivos na Nuvem
+- S3: Simple Store Service, armazenamento.
+- Você acessa em qualquer hora e qualquer dispositivo desde que haja internet.
+
+--> Outros Serviços da AWS
+- Amazon EC2: Serviço de processamento de dados na Nuvem
+
+---------------------------------------------
+
+-> Módulo 2: Introdução à Rede AWS
+
+--> Redes na AWS
+- AWS é um conjunto de recursos que permitem aplicativos e serviços se comunicarem um com os outros na Internet.
+- Networking - várias redes interligadas
+- AWS é uma grande nuvem que fica na internet onde você pode colocar aplicativos e dados que ficarão disponíveis em qualquer lugar do mundo.
+- A rede na AWS é a forma como esses aplicativos e dados se comunicam na internet entre si.
+- A AWS permitem que seus aplicativos e dados se conectem e se comuniquem.
+
+--> Conceitos de redes na AWS
+- IP é como se fosse um CPF do seu computador
+- Zonas e regiões é o local físico onde vai ser criado os recursos.
+- Redes são como esses recursos vão se conectar entre si.
+
+--> Benefícios das Redes da AWS - Grande processamento de dados - Escalável e Flexível
+- A AWS não só serve para hospedar sites e aplicativos, serve também para armazenamento de dados.
+- Serve também para processamento de dados
+- Escalável e flexível, significa que pode crescer e se adaptar de acordo com a necessidade de seu aplicativo.
+
+--> Exemplos práticos da utilização das Redes AWS
+- Hospedagem de sites e aplicativos
+- Armazenamento de dados
+- Análise de dados
+
+--> Resumo
+- A rede AWS é um conjunto de recursos que permitem que seus aplicativos e serviços se comuniquem uns com os outros e essa comunicação se comunique com a Internet.
+- As redes AWS são usadas para hospedar sites e aplicativos, armazenar dados, processar grande quantidade de dados e etc. Tudo isso acontece de forma rápida, segura e eficiente.
+
+---------------------------------------------
+
+-> Módulo 3: Princípios de regiões e zonas de disponibilidade
+
+--> Regiões e Zonas de disponibilidade
+- AWS tem zonas e regiões
+- Quando armazenamos um arquivo ou utilizamos algum recurso temos que dizer onde queremos armazenar algo
+- Data center: é uma central onde fica armazenadas todas as suas máquinas
+- AWS tem várias regiões espalhadas pelo mundo e em lugares estratégicos para garantir a segurança de suas informações. Ninguém sabe onde ficam esses lugares, é uma forma de preservar os dados e evitar qualquer ataque ou desastre que possa acontecer.
+- Resumindo:as regiões e zonas de disponibilidades são super importantes para garantir que seus dados e aplicativos estejam realmente seguros e acessíveis. Você pode escolher a região mais próxima de seus clientes para que eles possam acessar sua loja virtual ou aplicativo de forma mais rápida. Quando a gente tem mais zonas de disponibilidade dentro da mesma região você pode garantir que seus aplicativos continuem funcionando mesmo que aconteça algum problema.
+
+--> O que é disponibilidade?
+- É deixar disponível e fazer que as coisas aconteçam e fluem da melhor maneira possível.
+
+--------------------------------------------
+
+-> Módulo 4: Principais Serviços da AWS
+
+--> Amazon S3
+- Armazenamento de arquivos da Amazon
+- Amazon S3 é como se fosse uma gaveta muito grande, onde você pode guardar vídeos, fotos etc.
+- As empresas utilizam a Amazon S3 para guardar backups de arquivos e aplicativos super importantes para acessar de forma fácil e de forma segura.
+
+--> Amazon EC2
+- É como se fosse um super computador para cirar recursos, acessar zonas e regiões, criar minhas máquinas etc. É por aqui que criamos a nossa máquina virtual.
+- É usado por empresas para executar aplicativos e serviços 
+- Criar ambientes de testes e desenvolvimentos 
+- Além de executar operações de Big Data
+- Operações que dependo de alto volume de processamento.
+
+--> Amazon RDS
+- Serviço de Banco de Dados que permite a criação, o gerenciamento e a escabilidade de Banco de Dados.
+- Usado por empresas que precisam em seus sites e aplicativos acesso a Banco de Dados.
+- Conceito de Banco de Dados: lugar onde vou armazenar informações.
+
+--> Amazon SNS
+- Serviços de notificações que permitem a entrega de messagens para dispositivos móveis, endereços de e-mails e endpoints.
+- Usado por empresas para enviar notificações para os usuários.
+
+--> Amazon DynamoDB
+- Serviço de Banco de Dados mas não faz o armazenamento de forma lógica do que o Amazon RDS
+- Banco de Dados no cycle, não relacional, NO SQL
+- Permite armazenar e recuperar grande quantidade de dados com alta disponibilidade e desempenho
+
+--> AWS Lambda
+- Como se fosse um 'mordomo virtual' que executa tarefas para você sem que preocupar com manutenção e configuração do servidor.
+- Serviço de computação sem servidor.
+- conecito Serveless: serviço de computador sem servidor, onde não tem uma máquina virtual para executar meu processamento.
+- Permite executar códigos e respostas a eventos, exemplos: envio de formulários, alteração de banco de dados.
+- Usado por empresas que desejam criar aplicatiovs mais escaláveis e muito mais flexíveis, sem se preocupar com Infraestrutura de TI ou com manutenção.
+
+--> Amazon CloudFront
+- Serviço de distribuição de conteúdo
+- Permite entregar conteúdo web (exemplos: imagens, vídeos, arquivos) de maneira rápida e segura.
+- Usado por empresas que precisam entregar conteúdo web de maneira rápida e confiável para usuários de todo mundo.
+
+--> Elastic Beanstalk
+- Serviço de gerenciamento de aplicativos que permite implantar e gerenciar aplicativos da web de maneira super fácil
+- Usado por empresas que desejam criar aplicativos sem se preocupar com a infraestrutura e também as configurações de servidores.
+
+--> Amazon SQS
+- Permite a comunicação entre diferentes componentes de um aplicativo sem a necessidade de aclopamento entre eles.
+
+---------------------------------------------
+
+-> Módulo 5: Conceitos importantes de segurança na AWS
+
+--> Conceito de segurança na AWS
+- Para garantir a segurança é importante conhecer medidas que a AWS oferece em seus serviços.
+- Uma das principais medidas é o controle de acesso, Identity and Acess Management (IAM), que vai gerenciar o controle e fluxo dos usuários nos serviços que eles podem ter acesso. O IAM tarz uma segurança muito forte nos acessos dos usuários.
+- Outra medida importante é a criptografia, que é uma forma de codificar informações que somente que tem a chave possa ler. Uns dos serviços na AWS que usa a criptogradia é a Amazon S3 e o RDS.
+
+--> Monitoramento e Auditoria Interna
+- Monitoramento e Auditoria são medidas super importantes de segurança que funcionam como se fossem 'câmeras de segurança', registrando atividades e identificando atividades suspeitas. Isso ajuda muita na conformidade nas medidas de segurança e identica possíveis ameaças.
+- AWS é segura!
+- Basicamente é feito por dois serviços: Amazon CloudTrail e Amazon CloudWatch, permitindo que vocâ analise e visualize em tempo real.
+
+--> Backup e Disaster Recovery
+- Medidas essencias para garantir que seus dados estarão protegidos em caso de perda ou corrupção.
+- Cópia de segurança dos seus dados.
+- Na AWS é feito pela Amazon Glacier e Amazon EBS que permite que você faça backup dos seus dados e recupere se preciso em caso de necessidade desses dados.

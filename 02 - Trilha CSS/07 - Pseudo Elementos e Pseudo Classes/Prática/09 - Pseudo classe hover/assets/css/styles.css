@@ -1,0 +1,38 @@
+button {
+   background-color: palevioletred;
+   border: none;
+   padding: 8px 14px;
+   color: white;
+   cursor: pointer;
+}
+
+button:hover {
+   background-color: palegreen;
+   color: darkgreen;
+   border: 1px solid darkgreen;
+}
+
+.container {
+   width: 300px;
+   height: 300px;
+   background-color: palegoldenrod;
+   margin-top: 30px;
+}
+
+.container:hover {
+   background: url('../imgs/golden.jpg');
+   background-size: cover;
+}
+
+.container-02 {
+   width: 100px;
+   height: 100px;
+   background-color: palegoldenrod;
+   margin-top: 30px;
+}
+
+.container-02 button:hover {
+   background-color: purple;
+   color: yellow;
+   border-color: yellow;
+}

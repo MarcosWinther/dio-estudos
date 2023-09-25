@@ -1,0 +1,19 @@
+.container {
+   border: 2px solid #000;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr) 4fr repeat(2, 1fr);
+   grid-template-rows: 50px 100px 200px;
+}
+
+.item {
+   text-align: center;
+   background-color: deepskyblue;
+
+   /*grid-column-start: 1;
+   grid-column-end: span 3;*/
+   grid-column: 1 / span 3;
+
+   /*grid-row-start: 2;
+   grid-row-end: span 2;*/
+   grid-row: 2 / span 2;
+}

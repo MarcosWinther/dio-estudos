@@ -1,0 +1,11 @@
+code {
+   background-color: rgb(180, 180, 180);
+}
+
+video {
+   width: 100%;
+}
+
+video::backdrop {
+   background: purple;
+}

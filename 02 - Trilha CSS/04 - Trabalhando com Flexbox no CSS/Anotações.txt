@@ -1,0 +1,46 @@
+Trabalhando com Flexbox no CSS
+
+
+-> Entendendo os conceitos do Flexbox
+
+* Conceitos do Flexbox
+- Permite posicionar os elementos dentro de um outro elemento (container);
+- Os elementos dentro do container são conhecidos como itens.
+- O flexbox (Flexible Box Module) oferece uma maneira mais eficiente de organizar, alinhar e distribuir o espaço entre os itens do container, mesmo que o tamanho do elemento seja dinâmico.
+- Permite trazer para o container a possibilidade de alterar a largura/altura, ordem dos itens e aproveitar o espaço disponível dentro do elemento da melhor forma.
+
+* Eixos do Flexbox
+- Eixo principal (main axis): define a direção em que o nosso container vai organizar os nossos itens: horizontal (em linha) ou verticalmente (em coluna).
+- Eixo transversal (cross axis): o eixo transversal é perpendicular (atravessa) ao eixo principal.
+
+* Estilo da escrita & flexbox
+- A propriedade flex-direction vai levar em consideração o estilo de escrita no qual estamos trabalhando no projeto para definir se flex-direction: row, por exemplo, deve ser da esquerda para direita ou da direita para a esquerda.
+
+* Ordenando os itens no container
+- Podemos ordenar os flex-items através da propriedade order. Por padrão, os itens são exibidos conforme colocamos no HTML, mas, podemos ordená-lo individualmente.
+
+* Propriedade flex-grow
+- A propriedade flex-grow fará com que esse espaço extra seja usado por esses itens, dando a eles a capacidade para o item de crescer, ao longo do eixo principal, caso for necessário.
+- Atenção: números negativos não são aceitos.
+
+* Propriedade flex-shrink
+- A propriedade flex-shrink vai controlar o quanto esse item vai diminuir, caso seja necessário.
+- Se o container não possuir espaço suficiente para acomodar os elementos, eles irão diminuir para caber.
+
+* Propriedade flex-basis
+- A propriedade flex-basis define o tamanho inicial dos itens do nosso flexbox, antes que o espaço que de sobra seja redistribuído no container, de acordo com sua dimensão.
+- Pode ter um valor absoluto ou relativo para essa propriedade. 
+
+** Flex-basis: distribuição do espaço
+- Caso seja aplicado flex-basis: 0, o espaço extra em volta do conteúdo não será considerado. Se definirmos como flex-basis: auto, o espaço extra será distribuído com base no que definimos na propriedade flex-grow.
+
+** Flex-basis x width/height
+- Se usarmos a propriedade flex-basis no item, ele irá sobrescrever o valor do width/height do elemento.
+- Porém, vai respeitar o max-width/max-height definido para o elemento, assim como o min-width/min-height.
+
+* Propriedade flex (shorthand)
+- Normalmente, as propriedades flex-grow, flex-shrink e flex-basis não são usadas de forma individual, mas sim através da propriedade abreviada flex.
+- Os valores de flex-grow, flex-shrink e flex-basis, são definidos, respectivamente, através da propriedade flex.
+
+* Alinhamento com align-self
+- A propriedade align-self permite que nós possamos sobrescrever o alinhamento padrão aplicado em todos os itens de forma geral que foi definido pela propriedade align-items.

@@ -1,0 +1,23 @@
+code {
+   background-color: gray;
+}
+
+body {
+   font-family: Arial, sans-serif;
+}
+
+input[type="checkbox"]:checked + label {
+   text-decoration: line-through;
+}
+
+li:nth-last-child(2n) {
+   font-weight: bold;
+}
+
+dd:nth-last-child(3n) {
+   color: red;
+}
+
+dl :nth-last-of-type(1) {
+   color: aqua;
+}

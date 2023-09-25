@@ -1,0 +1,99 @@
+* {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: Arial, sans-serif;
+   margin: 10px;
+}
+
+li {
+   list-style: none;
+}
+
+li a{
+   text-decoration: none;
+   color: #000;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+nav li {
+   background-color: lightgreen;
+   padding: 8px;
+   border-radius: 4px;
+}
+
+nav ul {
+   display: flex;
+   flex-direction: column;
+   gap: 4px;
+}
+
+nav {
+   margin-bottom: 20px;
+}
+
+h1 {
+   margin-bottom: 20px;
+}
+
+p {
+   margin-bottom: 5px;
+}
+
+#skills {
+   background-color: lightgreen;
+   border: 1px solid green;
+   border-radius: 4px;
+   padding: 10px;
+   margin-bottom: 20px;
+}
+
+#skills ul li {
+   list-style: decimal;
+   margin: 1.5rem;
+}
+
+#education {
+   background-color: lightblue;
+   border: 1px solid blue;
+   border-radius: 4px;
+   padding: 10px;
+}
+
+main {
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+}
+
+@media screen and (min-width: 720px) {
+   nav ul {
+      flex-direction: row;
+   }
+
+   nav ul li {
+      flex: 1;
+      text-align: center;
+   }
+
+   main {
+      flex-direction: row;
+      gap: 24px;
+      max-width: 1200px;
+      margin: 16px auto;
+      flex-wrap: wrap;
+   }
+
+   #presentation {
+      flex-basis: 500px;
+   }
+
+   #skills, #education {
+      flex: 1;
+   }
+}

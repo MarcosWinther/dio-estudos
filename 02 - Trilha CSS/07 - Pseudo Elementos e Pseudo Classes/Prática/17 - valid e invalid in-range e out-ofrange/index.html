@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="assets/css/styles.css">
+   <title>Trilha de CSS</title>
+</head>
+<body>
+   <h1>
+      Pseudo-classe | 
+      <code>:valid</code> e <code>:invalid</code> / 
+      <code>:in-range</code> e <code>:out-ofrange</code>
+   </h1>
+
+   <div>
+      <input type="checkbox" name="task-01">
+      <label for="task-01">valid</label>
+   </div>
+
+   <div>
+      <input type="checkbox" name="task-02">
+      <label for="task-02">invalid</label>
+   </div>
+
+   <div>
+      <input type="checkbox" name="task-03">
+      <label for="task-03">in-range</label>
+   </div>
+
+   <div>
+      <input type="checkbox" name="task-04">
+      <label for="task-04">out-of-range</label>
+   </div>
+
+   <hr>
+
+   <form>
+      <h3>Faça a sua compra:</h3>
+      <label for="email">E-mail</label>
+      <input type="email" name="email" required>
+      <span class="error">E-mail inválido</span>
+
+      <label for="codigo-produto">Código Produto:</label>
+      <input type="number" name="codigo-produto" min="1000">
+      <span class="error">Código de Produto inválido.</span>
+
+      <label for="cupom">Cupom de Desconto:</label>
+      <input type="text" pattern="[a-z]+" placeholder="Apenas letras minúsculas">
+      <span class="error">Cupom de desconto inválido.</span>
+
+      <label for="data-nascimento">Data de Nascimento:</label>
+      <input type="date" name="data-nascimento" min="1962-01-01" max="2004-12-31">
+      <span class="error">Data de Nascimento inválido.</span>
+
+      <label for="quantidade">Quantidade:</label>
+      <input type="number" name="quantidade" min="3" max="10">
+      <span class="error">Quantidade inválida.</span>
+
+      <label for="">
+         <input type="checkbox" required>
+         <span>Li e aceito os termos de uso</span>
+      </label>
+
+      <button type="submit">Comprar</button>
+   </form>
+</body>
+</html>

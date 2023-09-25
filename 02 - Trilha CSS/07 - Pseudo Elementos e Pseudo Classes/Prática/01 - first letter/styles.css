@@ -1,0 +1,11 @@
+code {
+   background-color: rgb(180, 180, 180);
+}
+
+h1::first-letter {
+   color: red;
+}
+
+::first-letter {
+   font-size: 30px;
+}

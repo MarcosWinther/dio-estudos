@@ -1,0 +1,69 @@
+-> O que é Versionamento de Código?
+
+Sistemas de Controle de Versão
+- Controla as versões de um arquivo ao longo do tempo.
+-- Registra o histórico de atualizações de um arquivo;
+-- Gerencia quais foram as alterações, a data, autor, etc;
+-- Organização, controle e segurança
+
+- Dentre os Sistemas de Controle de Versão (VCS), temos:
+-- VCS Centralizado (CVCS): Ex: CVS, Subversion;
+-- VCS Distribuído (DVCS): Ex: Git, Mercurial.
+
+VCS Distribuído (DVCS)
+- Clona o repositório completo, o que inclui o histórico de versões.
+-- Cada clone é como um backup;
+-- Possibilita um fluxo de trabalho flexível;
+-- Possibilidade de trabalhar sem conexão à rede.
+
+----------------------------------------------
+
+-> O que é Git?
+
+Git
+- Sistema de Controle de Versão Distribuído.
+-- Gratuito e Open Source (Código aberto);
+-- Ramificações (branching) e fusões (merging) eficientes;
+-- Leve e rápido.
+
+- Link site git: https://git-scm.com/
+
+Breve histórico do Git 
+- 2002: O projeto do núcleo (kernel) do Linux, que é open source, começa a utilizar o BitKeeper, um DVCS proprietário;
+- 2005: Após conflitos com a comunidade, o BitKeeper rescinde a licença gratuita. O que leva Linus Torvalds, o criador do Linux, e a sua equipe desenvolverem sua própria ferramenta, o Git.
+
+Fluxo básico no Git
+- git clone: clona um repositório Git existente para um novo diretório (pasta) local.
+- git commit: grava alterações no repositório;
+- git pull: "puxa" as alterações do repositório remoto para o local (busca e mescla);
+- git push: "empurra" as alterações do repositório local para o remoto.
+
+---------------------------------------------
+
+-> O que é GitHub?
+
+GitHub
+- Plataforma de hospedagem de código para controle de versão com Git, e colaboração.
+-- Comunidade ativa;
+-- Utilizado mundialmente;
+-- Mascote "Octocat".
+
+Breve histórico do GitHub
+- 2008: Desenvolvido por Chris Wanstrath, J Hyett, Tom Preston-Werner e Scott Chacon.
+- 2018: Vítima de um dos maiores ataques de DDoS (ataque distribuído de negação de Serviço; Comprado pela Microsoft Corporation por US $ 7,5 bilhões.
+
+----------------------------------------------
+
+-> Criando e Clonando repositórios
+
+- Existem duas formas de obter um repósitório Git na sua máquina:
+1- Transformando um diretório local que não está sob controle de versão, num repositório Git;
+2- Clonando um repositório existente.
+
+----------------------------------------------
+
+-> Trabalhando com Branches
+
+- De maneira simplista, uma Branch (em tradução, "Ramo") é uma ramificação do seu projeto.
+-- É um ponteiro móvel para um commit no histórico do repositório;
+-- Quando você cria uma nova Branch a partir de outra existente, a nova se inicia apontando para o mesmo commit da Branch que estava quando foi criada.

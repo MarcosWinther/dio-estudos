@@ -1,0 +1,59 @@
+Unidades de medida no CSS
+- Podemos dividir as unidades de medidas em duas categorias: absolutas e relativas.
+
+Classificação de tipos numéricos de valores
+- Integer: valores inteiros, positivos e negativos (1024; -78);
+- Number: valores decimais (0.255; 128; -1.2);
+- Percentage: valores que representam uma fração de algum outro valor (50%);
+- Dimension: valores numéricos com unidade de medida atrelada.
+
+Tipos numéricos do CSS que contemplam o <dimension>
+- length: representam distância (px; em; vw; in);
+- angle: representam ângulos (deg; rad; grad; turn);
+- time: expressam o tempo (s; ms);
+- resolutions: descrevem resoluções para dispositivos (dpi; dpcm; dppx).
+
+Unidades de medida absolutas
+- cm: centímetros;
+- mm: milímetros;
+- Q: quarto de milímetro;
+- in: polegadas;
+- pc: paica;
+- pt: pontos;
+- px: pixels
+
+Pixels
+- Uma representação digital é formada por pequenos quadradinhos no dispositivo, esses pequenos quadradinhos chamamos de pixel.
+- Pixel físico - existe na tela do dispositivo
+- Pixel lógico -> é quanto conteúdo cabe dentro na tela independente da intensidade da tela.
+- Quanto mais densidade a imagem ter, mais definida a imagem será.
+
+Unidades relativas
+- As unidades relativas são calculadas com base em unidades já conhecidas de um outro elemento,
+o que faz com que o resultado possa variar de acordo com o valor da propriedade do elemento no qual estamos nos baseando.
+
+Unidades relativas: Porcentagem
+- A porcentagem é uma unidade de medida que irá utilizar como referência o elemento pai para se basear, podendo alterar os resultados de acordo com o lugar em que está inserido.
+
+Unidades relativas: em
+- A unidade de medida em, quando utilizada para definir o tamanho da fonte de um elemento, vai utilizar como referência o valor da propriedade font-size do elemento pai no qual está inserido.
+- Caso seja utilizado a unidade em para outras propriedades que não sejam o tamanho da fonte do elemento, o resultado será em relação ao tamanho da fonte do próprio elemento em que está sendo definida a propriedade.
+
+Unidades relativas: rem
+- O rem (root em) tem um funcionamento semelhante à unidade de medida em, porém a diferença é que, enquanto o em utiliza o elemento pai como referência, o rem está relacionado ao tamanho da fonte raiz, chamado root, que no caso, é a tag html.
+
+Unidades relativas: Viewport Units
+- Viewport é a área visível de uma página web, podendo variar de dispositivo para dispositivo. As unidades de medida viewport, vão ser calculadas em relação ao tamanho da área em que o usuário está vendo em sua página.
+- 1vw = 1% do tamanho da largura da área visível da página.
+- 1vh = 1% do tamanho da altura da área visível da página.
+
+Unidades relativas: ex e ch
+- Existem duas unidades de medidas que não são tão comumente usadas que são: ex e ch.
+
+Unidades relativas: ex
+- A unidade de medida ex irá usar o tamanho da altura do caractere X (em minúsculo) da fonte do elemento.
+- O valor especificado altera quando a fonte for completamente alterada.
+
+Unidades relativas: ch
+- O ch é uma unidade de medida que possui como referência o caractere 0 da fonte que está sendo utilizada no elemento.
+- Caso a fonte do elemento seja uma fonte mono-espaçada, ao utilizar a unidade de medida ch, estamos definindo quantos caracteres devem caber no elemento.

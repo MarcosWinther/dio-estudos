@@ -1,0 +1,8 @@
+.exemplo {
+   background-color: palevioletred;
+}
+
+#item-02 {
+   /*display: none;*/
+   visibility: hidden;
+}

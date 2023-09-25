@@ -1,0 +1,13 @@
+code {
+   background-color: rgb(180, 180, 180);
+}
+
+summary::marker {
+   content: "➔";
+   color: red;
+}
+
+li::marker {
+   color: blueviolet;
+   content: "➼";
+}

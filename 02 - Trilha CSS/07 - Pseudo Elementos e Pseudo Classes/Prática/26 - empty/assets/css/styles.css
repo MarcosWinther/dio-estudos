@@ -1,0 +1,24 @@
+code {
+   background-color: gray;
+}
+
+body {
+   font-family: Arial, sans-serif;
+}
+
+input[type="checkbox"]:checked + label {
+   text-decoration: line-through;
+}
+
+div {
+   height: 25px;
+   background-color: palegreen;
+}
+
+#elemento-content::before {
+   content: "🐕🐕🐕🐕🐕🐕🐕🐕";
+}
+
+div:empty {
+   border: 2px solid deeppink;
+}

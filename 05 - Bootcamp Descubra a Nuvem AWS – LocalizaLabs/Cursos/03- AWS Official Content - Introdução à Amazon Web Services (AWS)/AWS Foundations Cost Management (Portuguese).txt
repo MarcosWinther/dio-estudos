@@ -1,0 +1,25 @@
+Cloud Financial Management
+- O Cloud Financial Management (CFM) permite que você desbloqueie os potenciais econômicos da AWS e acelere a realização do valor empresarial.
+- CFM é um conjunto de atividades que permite às Organizações medir, otimizar e planejar custos à medida que você aumenta seu uso da AWS. Essas atividades abrangem quatro áreas distintas
+* Medição e responsabilidade: que inclui atividades que estabelecem custo e visibilidade para garantir a transparência e responsabilização pelos gastos.
+* Otimização de custos ou economia: que envolve atividades que garantem que sua organização pague apenas pelos recursos de que precisa.
+* Planejamento e previsão ou palno: que envolve atividades que permitem que sua Organização entenda melhor os custos associados à futuras workloads da nuvem.
+* Operações financeiras de custos ou execução: são atividades que permitem que sua Organização escale o CFM.
+
+Capacidade
+- Seis recursos:
+* Propriedade e responsabilidade
+* Parcerias entre organizações financeiras e de tecnologia
+* Alocação de custos
+* Visibilidade de custos
+* Otimização de custos
+* Previsão
+- Esses recursos estão presentes em muitas Organizações e empresas que tiveram sucesso em seus programas de gerenciamento de custos da AWS e jornada para a nuvem, independente de terem sido originalmente migrados para a AWS ou nascidos na nuvem.
+- Esses recursos também abrangem todos os 4 pilares do modelo do CFM e, como tal, representam uma visão holística do CFM bem feito.
+
+Níveis:
+* 1º Nível (novice): sua Organização não tem um proprietário identificado como responsável pela implementação do CFM como um programa. Não há patrocínio executivo que apoie o investimento em CFM como prioridade e nenhuma atividade de CFM está sendo realizada na maior parte.
+* 2º Nível (beginner): a principal diferença é que a Organização identificou um patrocinador executivo, embora normalmente o patrocinador ainda esteja ausente. Sua Organização pode estar realizando pequenas partes do CFM, talvez fazendo coisas como marcação de recursos ou relatórios de custos, mas muito disso será feito ad hoc ou de maneira inconsistente, às vezes em resposta a aumentos inesperados ou não planejados nos custos.
+* 3° Nível (intermediate): sua Organização identificará um proprietário indicado que passa uma porcentagem do tempo implementando o CFM de forma programática por meio de responsabilidades centralizadas ou descentralizadas em várias equipes. Nesse nível, o CFM como programa terá recebido patrocínio executivo.O patrocinador pode não estar complementamente ausente, mas ainda está fornecendo liderança, orientação, financiamento e escabilidade inconsistentes no programa CFM.
+* 4° Nível (advanced): o proprietário está ativo. O patrocinador está fornecendo liderança consistente no programa e as atividades do CFM são gerenciadas e executadas usando uma abordagem programática que aborda alto valor, problemas de pouco esforço em primeiro lugar e incorpora mudanças em processos de gerenciamento de riscos. Isso permite que o CFM seja executado de maneira contínua e consistente, fornecendo valor comercial.
+* 5° Nível (Expert): nosso proprietário indicado tem metas e objetivos de CFM usados para classificação.
