@@ -1,0 +1,31 @@
+Introdução ao Desenvolvimento e Criação de Jogos
+
+-> Visão Geral sobre o Processo
+
+Etapas de Desenvolvimento
+1- Idealização: aqui a imaginação é ilimitável, nessa etapa é idealizada as histórias do jogo, os personagens, os desafios e limitações de cada personagem, etc.
+2- Protótipo: serve para você pegar a ideia e testá-la. O objetivo é testar se a ideia do jogo foi boa.
+3- Fatia Vertical: como se fosse um protótipo bonito e funcional com o objetivo de mostrar que a ideia é boa.
+4- Início da produção
+5- Alpha ("Feature Complete"): tem todas as funcionalidades prontas. O esqueleto do jogo, a espinha dorsal do jogo está pronta.
+6- Beta ("Content Complete"): O conteúdo está completo
+7- Versão Final
+8- Lançamento
+
+-> O que é Game Design?
+
+Game Design
+- Criar, arquitetar o jogo
+- Game Designer pessoa que trabalha com Game Design, como se fosse um "maestro" do jogo.
+
+-> Lançamento e ética
+
+Onde publicar um jogo?
+- Play Store (Google)
+- App Store (Apple)
+- Steam (Valve)
+- Web (Kongregate, GameJolt, etc)
+- Consoles (Xbox, Switch, etc)
+
+Direitos autorais
+- Você pode usar comercialmente os assets do seu próprio jogo?
