@@ -1,0 +1,492 @@
+Módulo 1: Processos de software
+
+-> Definindo processo, fluxo e padrões de software
+- O desenvolvimento de software é um processo de aprendizado social. Trata-se  de um processo iterativo no qual a própria ferramenta em evolução serve como meio de comunicação.
+
+O que é processo de software?
+- Metodologia para as atividades, ações e tarefas necessárias para desenvolver um software.
+
+Algumas reflexões
+- Todos os envolvidos são diretamente ou indiretamente responsáveis.
+- Gera estabilidade, controle e organização dentro do contexto.
+- Processos são adaptáveis de acordo com o produto a ser construído.
+
+Atividades principais do processo:
+* Segundo Pressman:
+- Comunicação
+- Planejamento
+- Modelagem
+- Construção
+- Entrega
+
+* Segundo Sommerviller:
+- Especificação
+- Projeto e implementação
+- Validação
+- Evolução
+
+Padrões de processo
+- Descreve um problema de processo e sugere soluções de acordo com o contexto.
+- Pode ser definido para qualquer nível de abstração.
+- Abordagens de avaliação e aperfeiçoamento:
+-- SCAMPI (Standard CMMI Assessment Method for Process Improvement):  são os métodos geralmente aceitos para avaliar organizações perante os modelos CMMI. O documento SCAMPI Method Definition Document (MDD) define regras para assegurar a objetividade na classificação das avaliações.
+-- CBA IPI (CMM-Based Appraisal for internal Process Improvement)
+-- SPICE (ISO/IEC 15504): requisitos para avaliação de processos de software.
+-- ISO 9001:2000
+
+
+-> Modelo Prescitivo
+
+O que é?
+- Também chamado de modelos "tradicionais"
+- Foco na ordem e consistência do processo.
+- Prescrevem conjunto de elementos de processo e fluxos.
+
+Modelo Cascata - Clássico
+-> Comunicação (início do projeto, levantamento de requisitos) -> Planejamento (estimativas, cronograma, acompanhamento) -> Modelagem (análise, projeto) -> Construção (código, teste) -> Entrega (entrega, suporte, feedback)
+* Pode ser representado assim também:
+Requerimento -> Projeto -> Implementação -> Verificação -> Manutenção
+
+Modelo Cascata:
+- Útil para requisitos bem compreendidos, definidos e estáveis.
+- Processo linear e sistemático.
+
+Modelo V:
+- Relação entre atividades de garantia de qualidade e atividades restantes do processo
+- Não há diferença fundamental entre o Cascata e V.
+
+Modelo Cascata - Problemas
+- Projetos reais não seguem fluxos sequenciais
+- Não lida bem com adaptação constante de mudanças
+- Requisitos não são bem estabelecidos na primeira fase.
+- Longo tempo para visualizar primeira versão do software.
+- Gera estados de bloqueio para a equipe.
+
+
+-> Modelos incremental, evolucionário e concorrente
+
+Modelos de processo incremental
+- Situações com requisitos iniciais bem definidos, mas não refinados.
+- Pode-se utilizar prototipagem.
+
+Modelo evolucionário
+- Modelo que possibilita o desenvolvimento de um software que cresce e se adapta constantemente.
+- São iterativos
+- Modelos: Prototipagem e Espiral.
+
+Modelo evolucionário - Prototipagem
+- Útil para refinar requisitos
+- Validar eficiência e interação com usuário
+- Pode ser aplicado isoladamente ou em conjunto com outros processos
+- O protótipo atua como forma de obtenção de requisitos.
+- Podem ser descartáveis ou podem evoluir.
+
+Problemas da Prototipação
+- Falta de consideração da qualidade global do software após prototipação ser considerada "funcional"
+- Acomodar com escolhas iniciais da prototipação
+
+Modelo evolucionário - Espiral
+- Natureza iterativa da prototipação + aspectos sistemáticos do cascata
+- Estratégia cíclica incremental com foco em diminuir riscos
+
+Modelo concorrente
+- Representação concorrente de atividades de qualquer processo.
+
+
+-> Modelos Especializados
+
+Baseado em componentes
+- Desenvolvimento com base em componentes com interfaces definidas para serem integradas ao software -> COTS (commercial off-the-shelf)
+-- Módulos ou pacotes de classes
+- Evolucionário por natureza
+- Foco em reutilização -> Redução no tempo de desenvolvimento e custos
+
+Modelo de métodos formais
+- Atividades baseadas em condução à especificação matemática formal do software -> utilização de notação matemática <- engenharia de software sala limpa
+- Análise matemática auxilia nas descobertas de ambiguidades ou inconsistências.
+- Desenvolvimento consome tempo e dinheiro.
+- Complexidade exige formação e treinamento
+- Bem visto para softwares com fatores críticos.
+
+Modelo orientado a aspectos
+- Paradigma que oferece uma abordagem metodológica e de processos para definir, especificar, projetar e construir aspectos, que são pontos de interesse que se propagam e entrecortam outras partes da aplicação.
+
+
+-> Processo Unificado
+
+Um pouco de história
+- No início dos anos 90, James Rumbaugh, Grady Booch e Ivar Jacobson começaram a trabalhar em um "método unificado" que combinasse as melhores características de outros processos -> UML
+- Necessidade de um processo de software dirigido a casos de uso, centrado na arquitetura, iterativo e incremental.
+
+Fases do processo unificado
+1- Fase de concepção
+* Comunicação
+* Planejamento
+- Requisitos são descritos em conjunto de casos de uso preliminares.
+- Identificação de recursos, riscos, cronograma.
+
+2- Fase de elaboração
+* Planejamento
+* Modelagem
+- Refinamento e expansão de casos de uso
+- Ampliação de representação arquitetural:
+-- Casos de uso;
+-- Modelo de análise;
+-- Modelo de projeto;
+-- Modelo de implementação;
+-- Modelo de disponibilização
+
+3- fase de construção
+- Desenvolvimento de software com base nos modelos
+- Uso dos modelos para gerar suíte de testes de aceite
+- Utilização de testes conforme desenvolvimento.
+
+4- Fase de transição
+* Construção
+* Entrega
+- Comum entrega com testes beta para recebimento de feedbacks;
+- O incremento torna-se uma versão utilizável do software.
+
+5- Fase de produção
+* Entrega
+- Monitoramento de uso contínuo
+- Suporte
+- Relatórios para defeitos e mudanças
+
+----------------------------------------------
+
+Módulo 2: Desenvolvimento ágil
+
+-> O manifesto ágil
+
+Contexto e surgimento
+- Em contramão aos ditos métodos tradicionais ou "pesados", 17 profissionais que já praticavam os "métodos leves" se reuniram em Utah no ano de 2001 e chegaram ao consenso de métodos e práticas para o desenvolvimento de software -> Manifesto ágil
+
+O que diz o Manifesto?
+* Estamos descobrindo maneiras melhores de desenvolver software, fazendo-o e ajudando outros a fazê-lo. Através deste trabalho passamos a valorizar:
+- Indivíduos e interações acima de processos e ferramentas
+- Software funcional em vez de documentação abrangente
+- Colaboração do cliente sobre negociação de contrato
+- Responder à mudança em vez de seguir um plano
+- Ou seja, embora haja valor nos itens da
+direita, valorizamos mais os itens da esquerda.
+-- Fonte:https://agilemanifesto.org/
+
+12 princípios do Manifesto Ágil
+* De acordo com os criadores do Manifesto Ágil, os 12 princípios agile manifesto são:
+- “Nossa maior prioridade é satisfazer o cliente através da entrega contínua e adiantada de software com valor agregado”
+- “Mudanças nos requisitos são bem-vindas, mesmo tardiamente no desenvolvimento. Processos ágeis tiram vantagem das mudanças visando vantagem competitiva para o cliente”
+- “Entregar frequentemente software funcionando, de poucas semanas a poucos meses, com preferência à menor escala de tempo”
+- “Pessoas de negócio e desenvolvedores devem trabalhar em conjunto diariamente por todo o projeto”
+- “Construa projetos em torno de indivíduos motivados. Dê a eles o ambiente e o suporte necessário e confie neles para fazer o trabalho”
+- “O método mais eficiente e eficaz de transmitir informações para e entre uma equipe de desenvolvimento é por meio de conversa face a face”
+- “Software funcionando é a medida primária de progresso”
+- “Os processos ágeis promovem desenvolvimento sustentável. Os patrocinadores, desenvolvedores e usuários devem ser capazes de manter um ritmo constante indefinidamente”
+- “Contínua atenção à excelência técnica e bom design aumenta a agilidade”
+- “Simplicidade – a arte de maximizar a quantidade de trabalho não realizado – é essencial”
+- “As melhores arquiteturas, requisitos e designs emergem de equipes auto-organizáveis”
+- “Em intervalos regulares, a equipe reflete sobre como se tornar mais eficaz e então refina e ajusta seu comportamento de acordo.”
+
+O que significa ser ágil?
+- Métodos prescritivos não deixam de ser úteis, porém tem um ponto que pode torná-lo falho: as fraquezas e falhas de quem desenvolve o software!
+- Condutores de agilidade: adaptação + comunicação + auto-organização
+- A adaptação auxilia na diminuição de custos por alterações
+
+Motivações
+- Difícil prever requisitos de softwares e suas possíveis alterações
+- Difícil prever priorizações do cliente
+- Análise, projeto e testes não são previsíveis
+- As atividades de construção do software não são facilmente estimadas
+- Imprevisibilidade
+
+
+-> Extrema Programming - XP
+
+Surgimento 'Programação Extrema'
+- Primeiros trabalhos e métodos associados: 1980
+- Trabalho originário por Kent Beck
+- Existe variante com refinamentos para grandes organizações: IXP: Industrial Extreme Programming
+
+O processo
+- Paradigma foco: orientação a objetos
+- Envolve regras e práticas constantes durante processo de software
+
+O processo: Planejamento
+- Foco na comunicação, no 'ouvir' a partir do planning poker.
+- A atividade leva a criação de histórias do usuário pelo cliente, que também as prioriza.
+- Membros estimam com base em semanas de desenvolvimento -> máximo ideal de 3 semanas
+- Flexibilização para escrita de novas histórias
+- Clientes e desenvolvedores trabalham lado a lado = compromisso básico
+- Velocidade: nº histórias entregues.
+
+O processo: Projeto
+- Princípio KISS (keep it simples, stupid!)
+- Estímulo no uso de cartões CRC (classe-responsabilidade-colaborador)
+- Solução pontual a partir de protótipos
+
+O processo: Codificação
+- Uso de TDD (Test Driven Development)
+- Refatoração: aperfeiçoamento de código
+- Programação em pares
+- Inclusão de testes de aceite -> histórias do usuário
+
+
+-> Scrum
+
+Scrum
+- Nome provém de uma ação em partida de rugby: jogadores dos dois times se juntam com a cabeça abaixada e se empurram para obter posse de bola.
+
+Surgimento e teoria
+- Criado por Jeff Sutherland no início dos anos 1990 e desde então vem sendo revisado;
+- "Framework leve que ajuda pessoas, times e organizações a gerar valor por meio de soluções adaptativas para problemas complexos".
+- Baseado no empirismo e lean thinking
+- Iterativo e incremental
+- Eventos formais para inspeção e adaptação
+
+Pilares e valores
+- Pilares: transparência, adaptação e inspeção
+- Valores: coragem, foco, comprometimento, respeito e abertura.
+
+Scrum Team
+- Pequeno time de pessoas sem hierarquia -> Produto
+--- Scrum Master
+--- Product owner
+--- Developers
+- São multifuncionais e autogerenciáveis
+- Responsáveis por todas as atividades relacionadas aos produtos.
+
+Product owner
+- Maximiza valor do produto
+- Gerenciamento do Product Backlog:
+-- Desenvolver e expressar a meta do produto
+-- Criar e comunicar itens do Backlog
+-- Ordenar itens
+-- Garantir que Product Backlog seja transparente, visível e compreensível.
+
+Desenvolvedores
+- Criação de incremento utilizável
+a cada sprint
+- Habilidades amplas de acordo com domínio do trabalho
+- Responsabilidades:
+-- Criar sprint Backlog
+-- Alinhar a definição de Pronto
+-- Adaptação com direção à meta da Sprint
+-- Responsabilizar-se como profissionais
+
+Scrum Master
+- Gardião do Scrum -> eficácia da metodologia
+- Liderança que serve à organização
+- Responsabilidades:
+-- Treinar membros para auto-gerencimento
+-- Concentração do time
+-- Remoção de impedimentos
+-- Manutenção de eventos
+-- Auxilia PO com técnicas e melhorias no gerencimento do Backlog
+
+Eventos: A Sprint
+- Eventos de duração fixa com objetivo de gerar incremento
+- Atividades = Sprint Planning + Daily + Sprint Review e Sprint Retrospective
+- Não se faz mudanças que coloque em risco a meta da Sprint
+- Foco na qualidade
+- Refinamento conforme necessário
+- Somente PO pode cancelar a Sprint
+
+Eventos: Planning
+- Inicia sprint: definição do trabalho a ser realizado
+- Por que essa sprint é valiosa?
+- O que pode ser feito nessa Sprnit?
+- Como o trabalho será realizado?
+- Criação do Sprint Backlog
+
+Eventos: Daily
+- Inspeção em direção à meta da Sprint
+- Adaptação do Sprint Backlog
+- Curta duração/diariamente
+- Plano de trabalho
+- Comunicação
+- Remoção de impedimento
+
+Eventos: Sprint review
+- Apresentar e inspecionar resultados
+- Determinar adaptações
+- Ajuste no Product Backlog
+- Scrum Tem + Stakeholders
+- Penúltimo evento da sprint
+
+Eventos: Sprint retrospective
+- Planejamento voltado para qualidade e eficácia
+- Inspeção de processos, interações, ferramentas...
+- O que funcionou?
+- O que não funcionou?
+- Como foi resolvido?
+- Conclusão da sprint
+
+Artefatos
+- Product Backlog -> Meta do produto
+- Sprint Backlog -> Meta da sprint
+- Incremento -> Definição de pronto
+
+
+-> Outros Modelos ágeis
+
+Método de Desenvolvimento de Sistemas Dinâmicos (DSDM)
+- Foco na construção e manutenção de sistemas que satisfaçam restrições de prazo curto por meio da prototipação em ambiente controlado
+- Analogia com Princípio de Pareto: 80% de uma aplicação pode ser entregue em 20% do tempo que levaria para entregar a aplicação completa
+- É iterativo e incremental
+- Somente o trabalho suficiente é requisitado para cada incremento
+- Mantenedor -> Agile Business Consortium
+- Pode ser combinado com XP
+- Princípios:
+-- Focar na necessidade do negócio
+-- Entregar dentro do prazo
+-- Colaborar
+-- Nunca comprometer a qualidade
+-- Construir incrementalmente a partir de bases sólidas
+-- Desenvolver iterativamente
+-- Comunicar de forma contínua e clara
+-- Demonstrar controle
+
+- Fases:
+-- Pré-projeto: Orçamento, contrato e projeto candidatos
+-- Ciclo de vida: Desenvolvimento do produto
+--- Análise de viabilidade
+--- Iteração de modelo funcional: aqui já entra a prototipação
+--- Iteração de design e construção
+--- Implantação
+-- Pós-projeto: Manutenção, melhorias e ajustes
+
+- Papéis:
+-- Gerente executivo
+-- Visionário
+-- Intermediador
+-- Anunciante
+-- Gerente de projeto
+-- Coordenador técnico
+-- Líder de time
+-- Desenvolvedor
+-- Testador
+-- Escrivão
+-- Facilitador
+
+Processo Unificado Ágil
+- Filosofia: sequencial para o que é amplo e iterativa para o que é particular
+- Atividades: 
+-- Modelagem 
+-- Implementação
+-- Testes
+-- Entrega
+-- Configuração e gerenciamento
+-- Gerenciamento de ambiente
+
+Kanban
+- Significa cartão/sinalização -> Japão
+- Metodologia para organização de tarefas
+-- To do
+-- Doing
+-- Done
+- É simples e deve ser aliado com outros frameworks para gerenciamento do projeto
+
+----------------------------------------------
+
+Módulo 3: Testes no mundo ágil
+
+-> Contextualizando a atividade de teste
+
+A adoação de teste nos ciclos de vida do software
+- Para cada atividade de desenvolvimento existe uma atividade de teste
+- Cada nível de teste tem objetivos específicos
+- A análise e modelagem de testes começam durante a atividade de desenvolvimento
+- Participação no processo de requisitos, modelagem, refinamento...
+
+A participação do QA na história do usuário
+- Histórias de usuário = requisitos funcionais + não-funcionais
+- Conceito 3C: cartão, conversação e confirmação -> critérios de aceite
+- Perspectiva de quem testa difere do cliente, do PO e do desenvolvedor.
+
+Atividades envolvidas no planejamento
+- Análise detalhada das histórias
+- Determinar testabilidade da história
+- Criar testes de aceite
+- Criar tarefas para teste
+- Estimar esforço
+- Identificar aspectos funcionais e não funcionais a serem avaliados
+- Participar do processo de automação
+
+Detalhando a abordagem de teste
+- Determinar escopo, extenão, objetivos e razões para testes
+- Membros que irão atuar
+- Ambiente e dados necessários
+- Tempo, dependência e pré-requisitos
+- Riscos envolvidos
+
+
+-> Testes nas abordagens ágeis
+
+Diferenças nas abordagens de testes
+- As atividades de testes estão sempre relacionadas com o desenvolvimento, portanto, é importante conhecer os diversos processos e ciclos de vida e como a atividades de testes e qualidade se insere!
+- Cada empresa adota um processo e o customiza de acordo com necessidade
+- Adaptação é palavra-chave
+- As atividades de qualidade e teste estão embutidas em cada iteração podendo ocorrer paralelismo e sobreposição com outras atividades
+- Cada pessoa do time tem atuação direta na validação e verificação
+- Foco nos testes de segurança, performance e exploratórios
+- Uso de automação para testes de regressão
+- Documentação suficiente para manutenção e garantia de qualidade
+
+Produtos de trabalho comuns
+- Testes automatizados -> resultados
+- Planos de testes
+- Análise de risco
+- Evidências de testes manuais
+- Relatórios de defeitos
+
+Níveis de teste no modelo ágil
+- São sobrepostos
+- Foco
+-- Teste de unidade
+-- Teste de aceite: verificação e validação
+- Uso de integração e entrega contínua + automação de testes
+
+Status de testes no modelo ágil
+- Adaptação do modelo existe evolução e análise crítica para definir o que está efetivamente concluído
+- Atualização frequente de testes manuais e automatizados
+- Monitorar status de todas as atividades da equipe -> foco no feedback
+- Reuniões diárias para comunicação
+
+Atividades e habilidades para agilidade
+1. Positividade e pensamento na solução com todos da equipe
+2. Pensamento crítico com foco em qualidade
+3. Comunicação constante com cliente
+4. Feedbacks constantes
+5. Avaliação de cenários que representem os critérios de aceites
+6. Colaboração em tempo integral com programadores
+7. Adaptação à mudança
+8. Organização e planejamento
+
+Outras atividades na equipe ágil
+- Compreender e atualizar estratégias de teste
+- Medir e informar cobertura de teste
+- Garantir uso de ferramentas de forma adequada
+- Gerenciar ambientes de teste e seus dados
+- Relatar defeitos e gerenciá-los
+- Assegurar tarefas de forma adequada e suas estimativas
+- Esclarecimento contínuo de requesitos junto à equipe
+- Sugerindo melhorias
+
+
+-> Métodos de testes nos modelos ágeis
+
+* TDD - Desenvolvimento orientado por teste
+* ATDD - Desenvolvimento orientado por teste de aceite
+* BDD - Desenvolvimento orientado a comportamento
+
+Práticas úteis para testes
+- Teste assistido
+- Testes incrementais
+- Mapa mental
+-- Estratégias
+-- Cenários
+-- Dados
+
+Certificações para testes ágeis
+- CTFL-AT Agile Tester
+- CTFL-ATT Agile Technical Tester

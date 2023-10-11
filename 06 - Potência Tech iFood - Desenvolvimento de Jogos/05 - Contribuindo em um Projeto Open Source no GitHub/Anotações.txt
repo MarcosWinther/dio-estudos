@@ -11,3 +11,9 @@ Contribuindo em um Projeto Open Source no GitHub
 - Escrever ou atualizar a documentação;
 - Contribuir com o código;
 - Divulgar e/doar
+
+-> Dicas
+- Encontre um projeto do seu interesse e adicione ao seu portfolio indicando a forma como contribuiu;
+- Participe da comunidade e desenvolvam juntos;
+- Conheça e respeite o padrão do projeto que for contribuir;
+- Bônus: como editar arquivos pelo GitHub

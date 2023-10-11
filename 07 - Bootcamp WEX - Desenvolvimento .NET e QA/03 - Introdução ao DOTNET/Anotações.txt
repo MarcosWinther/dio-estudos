@@ -1,0 +1,9 @@
+Módulo 1: Introdução ao .NET, história, versões, usos
+
+-> Introdução ao .NET
+- O .NET é uma plataforma de desenvolvimento unificado que permite a construção de sistemas e aplicações.
+- C# é uma linguagem de programação usada no .NET
+
+-> História do .NET
+- A Microsoft começou a trabalhar no C# no final dos anos 90, tendo sua primeira versão do framework lançada em 2002, tendo como objetivo competir com o Java.
+- O conceito de multiplataforma era estrondoso na época, e a Microsoft trabalhou em melhorias e implementações do .net em  sua plataforma, mas foi impedida pela Sun.
