@@ -1,0 +1,14 @@
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\06 - Tipos de Operadores em C#\ExemploAula\bin\Debug\net7.0\ExemploAula.exe
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\06 - Tipos de Operadores em C#\ExemploAula\bin\Debug\net7.0\ExemploAula.deps.json
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\06 - Tipos de Operadores em C#\ExemploAula\bin\Debug\net7.0\ExemploAula.runtimeconfig.json
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\06 - Tipos de Operadores em C#\ExemploAula\bin\Debug\net7.0\ExemploAula.dll
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\06 - Tipos de Operadores em C#\ExemploAula\bin\Debug\net7.0\ExemploAula.pdb
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\06 - Tipos de Operadores em C#\ExemploAula\obj\Debug\net7.0\ExemploAula.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\06 - Tipos de Operadores em C#\ExemploAula\obj\Debug\net7.0\ExemploAula.AssemblyInfoInputs.cache
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\06 - Tipos de Operadores em C#\ExemploAula\obj\Debug\net7.0\ExemploAula.AssemblyInfo.cs
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\06 - Tipos de Operadores em C#\ExemploAula\obj\Debug\net7.0\ExemploAula.csproj.CoreCompileInputs.cache
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\06 - Tipos de Operadores em C#\ExemploAula\obj\Debug\net7.0\ExemploAula.dll
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\06 - Tipos de Operadores em C#\ExemploAula\obj\Debug\net7.0\refint\ExemploAula.dll
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\06 - Tipos de Operadores em C#\ExemploAula\obj\Debug\net7.0\ExemploAula.pdb
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\06 - Tipos de Operadores em C#\ExemploAula\obj\Debug\net7.0\ExemploAula.genruntimeconfig.cache
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\06 - Tipos de Operadores em C#\ExemploAula\obj\Debug\net7.0\ref\ExemploAula.dll

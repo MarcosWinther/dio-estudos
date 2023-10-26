@@ -1,0 +1,14 @@
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\08 - Conhecendo as Estruturas de Repetição em C#\ExemploMenu\bin\Debug\net7.0\ExemploMenu.exe
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\08 - Conhecendo as Estruturas de Repetição em C#\ExemploMenu\bin\Debug\net7.0\ExemploMenu.deps.json
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\08 - Conhecendo as Estruturas de Repetição em C#\ExemploMenu\bin\Debug\net7.0\ExemploMenu.runtimeconfig.json
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\08 - Conhecendo as Estruturas de Repetição em C#\ExemploMenu\bin\Debug\net7.0\ExemploMenu.dll
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\08 - Conhecendo as Estruturas de Repetição em C#\ExemploMenu\bin\Debug\net7.0\ExemploMenu.pdb
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\08 - Conhecendo as Estruturas de Repetição em C#\ExemploMenu\obj\Debug\net7.0\ExemploMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\08 - Conhecendo as Estruturas de Repetição em C#\ExemploMenu\obj\Debug\net7.0\ExemploMenu.AssemblyInfoInputs.cache
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\08 - Conhecendo as Estruturas de Repetição em C#\ExemploMenu\obj\Debug\net7.0\ExemploMenu.AssemblyInfo.cs
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\08 - Conhecendo as Estruturas de Repetição em C#\ExemploMenu\obj\Debug\net7.0\ExemploMenu.csproj.CoreCompileInputs.cache
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\08 - Conhecendo as Estruturas de Repetição em C#\ExemploMenu\obj\Debug\net7.0\ExemploMenu.dll
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\08 - Conhecendo as Estruturas de Repetição em C#\ExemploMenu\obj\Debug\net7.0\refint\ExemploMenu.dll
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\08 - Conhecendo as Estruturas de Repetição em C#\ExemploMenu\obj\Debug\net7.0\ExemploMenu.pdb
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\08 - Conhecendo as Estruturas de Repetição em C#\ExemploMenu\obj\Debug\net7.0\ExemploMenu.genruntimeconfig.cache
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\08 - Conhecendo as Estruturas de Repetição em C#\ExemploMenu\obj\Debug\net7.0\ref\ExemploMenu.dll

@@ -1,0 +1,14 @@
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\08 - Conhecendo as Estruturas de Repetição em C#\Aula\bin\Debug\net7.0\Aula.exe
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\08 - Conhecendo as Estruturas de Repetição em C#\Aula\bin\Debug\net7.0\Aula.deps.json
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\08 - Conhecendo as Estruturas de Repetição em C#\Aula\bin\Debug\net7.0\Aula.runtimeconfig.json
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\08 - Conhecendo as Estruturas de Repetição em C#\Aula\bin\Debug\net7.0\Aula.dll
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\08 - Conhecendo as Estruturas de Repetição em C#\Aula\bin\Debug\net7.0\Aula.pdb
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\08 - Conhecendo as Estruturas de Repetição em C#\Aula\obj\Debug\net7.0\Aula.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\08 - Conhecendo as Estruturas de Repetição em C#\Aula\obj\Debug\net7.0\Aula.AssemblyInfoInputs.cache
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\08 - Conhecendo as Estruturas de Repetição em C#\Aula\obj\Debug\net7.0\Aula.AssemblyInfo.cs
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\08 - Conhecendo as Estruturas de Repetição em C#\Aula\obj\Debug\net7.0\Aula.csproj.CoreCompileInputs.cache
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\08 - Conhecendo as Estruturas de Repetição em C#\Aula\obj\Debug\net7.0\Aula.dll
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\08 - Conhecendo as Estruturas de Repetição em C#\Aula\obj\Debug\net7.0\refint\Aula.dll
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\08 - Conhecendo as Estruturas de Repetição em C#\Aula\obj\Debug\net7.0\Aula.pdb
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\08 - Conhecendo as Estruturas de Repetição em C#\Aula\obj\Debug\net7.0\Aula.genruntimeconfig.cache
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\08 - Conhecendo as Estruturas de Repetição em C#\Aula\obj\Debug\net7.0\ref\Aula.dll

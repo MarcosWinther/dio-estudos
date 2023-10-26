@@ -1,0 +1,14 @@
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\04 - Introdução as IDEs e Configuração de Ambiente DOTNET\Prática\bin\Debug\net7.0\Prática.exe
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\04 - Introdução as IDEs e Configuração de Ambiente DOTNET\Prática\bin\Debug\net7.0\Prática.deps.json
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\04 - Introdução as IDEs e Configuração de Ambiente DOTNET\Prática\bin\Debug\net7.0\Prática.runtimeconfig.json
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\04 - Introdução as IDEs e Configuração de Ambiente DOTNET\Prática\bin\Debug\net7.0\Prática.dll
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\04 - Introdução as IDEs e Configuração de Ambiente DOTNET\Prática\bin\Debug\net7.0\Prática.pdb
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\04 - Introdução as IDEs e Configuração de Ambiente DOTNET\Prática\obj\Debug\net7.0\Prática.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\04 - Introdução as IDEs e Configuração de Ambiente DOTNET\Prática\obj\Debug\net7.0\Prática.AssemblyInfoInputs.cache
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\04 - Introdução as IDEs e Configuração de Ambiente DOTNET\Prática\obj\Debug\net7.0\Prática.AssemblyInfo.cs
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\04 - Introdução as IDEs e Configuração de Ambiente DOTNET\Prática\obj\Debug\net7.0\Prática.csproj.CoreCompileInputs.cache
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\04 - Introdução as IDEs e Configuração de Ambiente DOTNET\Prática\obj\Debug\net7.0\Prática.dll
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\04 - Introdução as IDEs e Configuração de Ambiente DOTNET\Prática\obj\Debug\net7.0\refint\Prática.dll
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\04 - Introdução as IDEs e Configuração de Ambiente DOTNET\Prática\obj\Debug\net7.0\Prática.pdb
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\04 - Introdução as IDEs e Configuração de Ambiente DOTNET\Prática\obj\Debug\net7.0\Prática.genruntimeconfig.cache
+C:\Users\Marcos Winther\Documents\Estudos DIO\07 - Bootcamp WEX - Desenvolvimento .NET e QA\04 - Introdução as IDEs e Configuração de Ambiente DOTNET\Prática\obj\Debug\net7.0\ref\Prática.dll

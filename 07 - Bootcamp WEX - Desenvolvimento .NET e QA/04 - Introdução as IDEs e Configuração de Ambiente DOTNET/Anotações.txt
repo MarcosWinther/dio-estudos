@@ -1,0 +1,6 @@
+Mòdulo 1: Configuração do ambiente e IDEs
+
+-> IDEs
+
+O que é uma IDE?
+- Uma IDE (Integrated Development Environment), ou ambiente de desenvolvimento integrado, é um software que facilita e integra diversas facilidades para a escrita e depuração do código.

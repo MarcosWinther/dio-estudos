@@ -6,4 +6,27 @@ Módulo 1: Introdução ao .NET, história, versões, usos
 
 -> História do .NET
 - A Microsoft começou a trabalhar no C# no final dos anos 90, tendo sua primeira versão do framework lançada em 2002, tendo como objetivo competir com o Java.
-- O conceito de multiplataforma era estrondoso na época, e a Microsoft trabalhou em melhorias e implementações do .net em  sua plataforma, mas foi impedida pela Sun.
+- O conceito de multiplataforma era estrondoso na época, e a Microsoft trabalhou em melhorias e implementações do Java em  sua plataforma, mas foi impedida pela Sun.
+- Isso motivou a Microsoft a desenvolver um ecossistema integrado ao Windows, que fosse fácil para desenvolver aplicativos desktops e web, e que fosse amarrado apenas ao Windows, aumentando assim a sua relevância.
+
+----------------------------------------------
+
+Módulo 2: Compilador .NET e seu funcionamento
+
+-> O compilador e seu funcionamento
+
+O que é um compilador?
+- Linguagem de alto nível: a linguagem que entendemos e escrevemos nosso código fonte.
+- Linguagem de baixo nível: A linguagem que a máquina entende. Possui pouca abstração, sendo difícil de entender.
+- Compilador: é um programa que realiza a conversão de linguagem de alto nível para baixo nível.
+
+
+-> Compilador e transpilador
+
+Compilador vs Transpilador
+- Compilador: é um programa que realiza a conversão de alto nível para baixo nível. Exemplo: C#, Java
+- Transpilador: é a conversão de uma linguagem ou implementação para outra. A sua saída permanece em linguagem de alto nível. Exemplo: TypeScript para JavaScript.
+
+Nem toda linguagem é compilada!
+- Linguagem compilada: são linguagens em que o código fonte é traduzido para o código de máquina. Exemplo: C#, Java
+- Linguagem interpretada: são linguagens que fazem a leitura e interpretação diretamente do código fonte> Exemplo: JavaScript, PHP
